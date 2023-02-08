@@ -8,10 +8,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: var(--black-color);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--black-color);
+    background: var(--invertido-color);
 }
