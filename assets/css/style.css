@@ -163,6 +163,10 @@ img:hover.logoHome {
     box-shadow: 0px 0px 5px 5px var(--black-color);
     padding: 2rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-text-bg h2{
@@ -192,7 +196,7 @@ img:hover.logoHome {
 }
 
 .grid-spacing {
-    padding: 2rem 0rem 0rem 2rem;
+    padding: 1rem;
     width: 100%;
     overflow: hidden;
 }
@@ -270,6 +274,15 @@ img:hover.logoHome {
     grid-template-columns: 1fr 1fr;
 }
 
+.sobre-content-ajuste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;   
+}
+
+
 .sobre-text-bg {
     background-color: var(--white-color);
     border-top-left-radius: 1rem;
@@ -279,6 +292,7 @@ img:hover.logoHome {
     box-shadow: 0px 0px 5px 5px var(--black-color);
     padding: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 .sobre-localizacao {
@@ -301,4 +315,8 @@ img:hover.logoHome {
     font-family: 'Montserrat', sans-serif;
     color: var(--black-color);
 
+}
+
+.close-menu {
+    display: none;
 }
