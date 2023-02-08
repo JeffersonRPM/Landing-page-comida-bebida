@@ -25,10 +25,6 @@ h6 {
     text-transform: uppercase;
 }
 
-p {
-    text-align: justify;
-}
-
 h1 {
     font-size: 6rem;
 }
@@ -109,7 +105,7 @@ img:hover.logoHome{
     font-weight: 700;
     display: block;
     padding: 2rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: inherit;
     position: relative;
 }
@@ -167,4 +163,47 @@ img:hover.logoHome{
     box-shadow: 0px 0px 5px 5px var(--black-color);
     padding: 2rem;
     text-align: center;
+}
+
+
+
+.sobre-content{
+    display: grid;
+    align-items: center;
+    gap: var(--gap);
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sobre-text-bg {
+    background-color: var(--white-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 13rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 13rem;
+    box-shadow: 0px 0px 5px 5px var(--black-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.sobre-localizacao {
+    width: 25px;
+    vertical-align: bottom;
+}
+
+.sobre-espacamento {
+    margin: 1rem 0;
+}
+
+.sobre-ifood {
+    width: 105px;
+}
+
+
+.footer-cl {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black-color);
+
 }
