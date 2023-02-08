@@ -120,10 +120,10 @@
         justify-content: center;
     }
 
-    .sobre-content-ajuste{
-        min-height: 0vh;   
+    .sobre-content-ajuste {
+        min-height: 0vh;
     }
-    
+
 }
 
 @media all and (min-width: 640px) and (max-width: 1250px) {
@@ -165,7 +165,7 @@
         align-items: center;
         gap: var(--gap);
         min-height: 100vh;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 
     .grid-comida {
@@ -193,9 +193,8 @@
         justify-content: center;
     }
 
-    .sobre-content-ajuste{
-        min-height: 0vh;   
+    .sobre-content-ajuste {
+        min-height: 0vh;
     }
-    
-}
 
+}

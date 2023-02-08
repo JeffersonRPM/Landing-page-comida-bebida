@@ -169,12 +169,12 @@ img:hover.logoHome {
     justify-content: center;
 }
 
-.home-text-bg h2{
+.home-text-bg h2 {
     color: var(--logo-blue);
     text-shadow: 1px 1px 1px var(--black-color), 1px -1px 1px var(--black-color), -1px 1px 1px var(--black-color), -1px -1px 1px var(--black-color);
 }
 
-.home-text-bg h3{
+.home-text-bg h3 {
     color: var(--logo-red);
     text-shadow: 1px 1px 1px var(--black-color), 1px -1px 1px var(--black-color), -1px 1px 1px var(--black-color), -1px -1px 1px var(--black-color);
 }
@@ -274,12 +274,12 @@ img:hover.logoHome {
     grid-template-columns: 1fr 1fr;
 }
 
-.sobre-content-ajuste{
+.sobre-content-ajuste {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;   
+    min-height: 100vh;
 }
 
 
