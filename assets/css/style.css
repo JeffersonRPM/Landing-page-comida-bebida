@@ -308,6 +308,9 @@ img:hover.logoHome {
     width: 105px;
 }
 
+img.sobre-ifood.sobre-espacamento:hover{
+    transform: scale(1.1);
+}
 
 .footer-cl {
     text-align: center;
