@@ -171,12 +171,12 @@ img:hover.logoHome {
 
 .home-text-bg h2 {
     color: var(--logo-blue);
-    text-shadow: 1px 1px 1px var(--black-color), 1px -1px 1px var(--black-color), -1px 1px 1px var(--black-color), -1px -1px 1px var(--black-color);
+    text-shadow: 0.5px 0.5px 1px var(--black-color), 0.5px -0.5px 1px var(--black-color), -0.5px 0.5px 1px var(--black-color), -0.5px -0.5px 1px var(--black-color);
 }
 
 .home-text-bg h3 {
     color: var(--logo-red);
-    text-shadow: 1px 1px 1px var(--black-color), 1px -1px 1px var(--black-color), -1px 1px 1px var(--black-color), -1px -1px 1px var(--black-color);
+    text-shadow: 0.5px 0.5px 1px var(--black-color), 0.5px -0.5px 1px var(--black-color), -0.5px 0.5px 1px var(--black-color), -0.5px -0.5px 1px var(--black-color);
 }
 
 .comida-h2 {
@@ -185,7 +185,7 @@ img:hover.logoHome {
     display: grid;
     align-items: center;
     gap: var(--gap);
-    text-shadow: 1px 1px 1px var(--black-color), 1px -1px 1px var(--black-color), -1px 1px 1px var(--black-color), -1px -1px 1px var(--black-color);
+    text-shadow: 0.5px 0.5px 1px var(--black-color), 0.5px -0.5px 1px var(--black-color), -0.5px 0.5px 1px var(--black-color), -0.5px -0.5px 1px var(--black-color);
 }
 
 .alinhamento {
@@ -220,7 +220,7 @@ img:hover.logoHome {
     width: 100%;
     overflow: hidden;
     border: -1rem solid var(--white-color);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 5px 5px var(--darkgray-color);
 }
 
@@ -229,7 +229,7 @@ img:hover.logoHome {
     margin: 2rem 0rem 0rem 0rem;
     overflow: hidden;
     border: -1rem solid var(--white-color);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 5px 5px var(--darkgray-color);
 }
 
@@ -239,7 +239,7 @@ img:hover.logoHome {
     display: grid;
     align-items: center;
     gap: var(--gap);
-    text-shadow: 1px 1px 1px var(--white-color), 1px -1px 1px var(--white-color), -1px 1px 1px var(--white-color), -1px -1px 1px var(--white-color);
+    text-shadow: 0.5px 0.5px 1px var(--white-color), 0.5px -0.5px 1px var(--white-color), -0.5px 0.5px 1px var(--white-color), -0.5px -0.5px 1px var(--white-color);
 }
 
 .grid-avaliacoes {
@@ -319,4 +319,8 @@ img:hover.logoHome {
 
 .close-menu {
     display: none;
+}
+
+div img.grid-spacing{
+    border-radius: 30px;
 }
