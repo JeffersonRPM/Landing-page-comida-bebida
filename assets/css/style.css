@@ -262,6 +262,10 @@ img:hover.logoHome {
     transition: all 300ms ease-in-out;
 }
 
+.bg-lightgray {
+    background-color: var(--lightgray-color);
+}
+
 .grid-porcoes img:hover {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
@@ -308,7 +312,7 @@ img:hover.logoHome {
     width: 105px;
 }
 
-img.sobre-ifood.sobre-espacamento:hover{
+img.sobre-ifood.sobre-espacamento:hover {
     transform: scale(1.1);
 }
 
@@ -324,6 +328,6 @@ img.sobre-ifood.sobre-espacamento:hover{
     display: none;
 }
 
-div img.grid-spacing{
+div img.grid-spacing {
     border-radius: 30px;
 }
