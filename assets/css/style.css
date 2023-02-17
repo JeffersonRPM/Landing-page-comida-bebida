@@ -137,8 +137,13 @@ img:hover.logoHome {
 
 .anchor1-bg {
     background-image: url(../img/wallpaper1.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-repeat: repeat-x;
+    animation: bg-animation 20s linear 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
 }
 
 .home-content {
