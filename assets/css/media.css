@@ -88,9 +88,7 @@
     }
 
     .anchor1-bg {
-        background-size: cover;
-        background-position: center center;
-        animation: bg-animation 90s linear 90s infinite alternate;
+        animation: bg-animation 90s linear 0s infinite alternate;
     }
     
     .sobre-content {
@@ -167,7 +165,7 @@
     }
 
     .anchor1-bg {
-        animation: bg-animation 80s linear 80s infinite alternate;
+        animation: bg-animation 80s linear 0s infinite alternate;
     }
 
     .sobre-content {
