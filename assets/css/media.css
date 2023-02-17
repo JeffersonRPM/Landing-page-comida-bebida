@@ -87,6 +87,10 @@
         color: var(--darkgray-color);
     }
 
+    .anchor1-bg {
+        animation: bg-animation 130s linear 130s infinite alternate;
+    }
+    
     .sobre-content {
         display: grid;
         align-items: center;
@@ -158,6 +162,10 @@
         font-size: 1.8rem;
         color: inherit;
         position: relative;
+    }
+
+    .anchor1-bg {
+        animation: bg-animation 80s linear 80s infinite alternate;
     }
 
     .sobre-content {
