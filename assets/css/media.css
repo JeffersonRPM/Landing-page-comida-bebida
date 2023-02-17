@@ -88,6 +88,8 @@
     }
 
     .anchor1-bg {
+        background-size: cover;
+        background-position: center center;
         animation: bg-animation 90s linear 0s infinite alternate;
     }
     
