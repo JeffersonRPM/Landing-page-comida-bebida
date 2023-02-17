@@ -138,7 +138,7 @@ img:hover.logoHome {
 .anchor1-bg {
     background-image: url(../img/wallpaper1.jpg);
     background-repeat: repeat-x;
-    animation: bg-animation 20s linear 20s infinite alternate;
+    animation: bg-animation 20s linear 0s infinite alternate;
 }
 
 @keyframes bg-animation {
