@@ -142,8 +142,13 @@ img:hover.logoHome {
 }
 
 @keyframes bg-animation {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 0; }
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
 }
 
 .home-content {
@@ -244,7 +249,7 @@ img:hover.logoHome {
     display: grid;
     align-items: center;
     gap: var(--gap);
-    text-shadow: 0.5px 0.5px 1px var(--white-color), 0.5px -0.5px 1px var(--white-color), -0.5px 0.5px 1px var(--white-color), -0.5px -0.5px 1px var(--white-color);
+    text-shadow: 0.5px 0.5px 1px var(--black-color), 0.5px -0.5px 1px var(--black-color), -0.5px 0.5px 1px var(--black-color), -0.5px -0.5px 1px var(--black-color);
 }
 
 .grid-avaliacoes {
@@ -252,10 +257,6 @@ img:hover.logoHome {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.avaliacoes-dark-bg {
-    background-color: var(--invertido-color);
 }
 
 .grid-porcoes {
